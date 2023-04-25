@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+body{
+    background-color: #191b22;
+}
+
+.customizer{
+    display: grid;
+    gap: 1.4rem;
+    column-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    
+
+}
