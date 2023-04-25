@@ -49,6 +49,7 @@ const ApiPage = () => {
   return (
    <>
      <Head>
+        <link rel="shortcut icon" href="/setQR-icon.png" />
         <title>API</title> 
         <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1" />
       </Head>

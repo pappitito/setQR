@@ -174,6 +174,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>setQR</title>
+        <link rel="shortcut icon" href="/setQR-icon.png" />
         <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1" />
         
       </Head>

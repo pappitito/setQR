@@ -16,7 +16,7 @@ export interface Props {
 
 const Header = ({links}: Props) => {
   return (
-    <div className='flex flex-row justify-between p-2 pl-6 pr-6'>
+    <div key={'general'} className='flex flex-row justify-between p-2 pl-6 pr-6'>
       <Link className='flex w-[30%]' href='/'>
         
           <Image className='' src='/setQR.svg' alt='logo'
@@ -27,7 +27,7 @@ const Header = ({links}: Props) => {
       
       <div className="flex flex-row z-10 items-center">
                 <input type='checkbox' id='menushow' className="peer/checker hidden " />
-                <label className="md:hidden " htmlFor='menushow'><Image  className='hover:cursor-pointer'  src='/menu copy.png' alt='ig'
+                <label className="md:hidden " htmlFor='menushow'><Image  className='hover:cursor-pointer'  src='/menuCopy.png' alt='ig'
                          width={40} height={40} priority/></label>
                 <div className='md:flex md:flex-row hidden items-center gap-[2rem]'>
                     {links? links.map((link)=>{
