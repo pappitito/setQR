@@ -1,27 +1,5 @@
-# Next.js + Tailwind CSS Example
+# setQR web app
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## live: https://setqr.netlify.app/
 
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### setQR is a powerful website that makes it easy for users to create customized QR codes that stand out from the crowd. With setQR, you can generate unique QR codes that incorporate your own logo or other design elements, making them perfect for use in marketing campaigns, promotions, or any other situation where you want to grab people's attention. Using setQR is simple and intuitive. Just visit the website, input the information you want to encode into the QR code, and upload your logo or choose from a library of graphics to use as a design element. The website's powerful software will generate a high-quality QR code that's tailored to your specifications, and you can download the image file for use in your own projects. But that's not all setQR has to offer. For developers, setQR provides an API interface that allows them to make calls to the website's server and generate customized QR codes on the fly. With just an API key and ID, developers can integrate QR code creation into their own applications or services and offer a seamless user experience to their own users. Overall, setQR is a must-have tool for anyone who wants to take their QR code game to the next level. Whether you're a marketer, a business owner, or a developer, setQR makes it easy to create unique, eye-catching QR codes that get noticed. Give it a try today and see what all the fuss is about!
