@@ -1,4 +1,4 @@
-#setQR web app
+# setQR web app
 
 ## live: https://setqr.netlify.app/
 
