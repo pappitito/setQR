@@ -9,6 +9,7 @@ import CustomModal from '../../components/modal/modal'
 import ClipboardJS from "clipboard";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import MyUploader from '../../components/uploader2/Uploader2'
 
 const showToastMessage = (message: string, type: string) => {
   switch (type) {
@@ -267,7 +268,7 @@ const handleSelectionChange = (event: any) => {
                         </div>
                     </div>
                 </div>
-                <UploadComponent value64Setter={setLogoUrl} placeholder='Click here to upload logo' />
+                <MyUploader value64Setter={setLogoUrl} placeholder='Click here to upload logo' />
 
                 <div className='w-[10rem]'>
                     <Button text={loading?

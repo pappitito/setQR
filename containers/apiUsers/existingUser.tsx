@@ -9,6 +9,7 @@ import { apiBaseLink } from '../../pages'
 import ClipboardJS from "clipboard";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import MyUploader from '../../components/uploader2/Uploader2'
 
 const showToastMessage = (message: string, type: string) => {
         switch (type) {
@@ -355,7 +356,7 @@ const ExistingUser = () => {
                     </div>
                 </div>
             </div>
-            <UploadComponent value={logoUrl} value64Setter={setLogoUrl} placeholder='Click here to change logo' />
+            <MyUploader value={logoUrl} value64Setter={setLogoUrl} placeholder='Click here to change logo' />
 
             <div className='w-[10rem]'>
             <Button text={ saving? <div className='flex flex-row items-center '>

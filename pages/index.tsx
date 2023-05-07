@@ -11,6 +11,7 @@ import {Oval} from 'react-loader-spinner'
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import MyUploader from '../components/uploader2/Uploader2'
 
 
 export const apiBaseLink = 'https://setqrtest.onrender.com/api'
@@ -225,7 +226,8 @@ const Home: NextPage = () => {
               </div>
             </div>
             </div>
-            <UploadComponent value64Setter={setlogoUrl}  placeholder='Click here to upload logo' />
+            
+            <MyUploader value64Setter={setlogoUrl}  placeholder='Click here to upload logo' />
             <div className='w-[10rem] mt-8'>
               <Button text={loading? <div className='flex flex-row items-center '>
                 <Oval
